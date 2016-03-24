@@ -4,8 +4,6 @@ Adaptive mesh refinement for XY->Z problems
 Overview
 --------
 
-
-
 When performing numerical simulations one often deals with need to calculate certain
 values for each point in the predefined grid on XY plane, which typically looks like 
 this 
@@ -236,7 +234,7 @@ that **.obj** file is **boltzmann.obj** it will look like this
     grd.load_from_java3d_obj_file("boltzmann.obj")
 
 If the file **boltzmann.obj** does not exist or is not readable then it is a NOOP. If the 
-obj file is successfully loaded then calling **grd.compute** is a NOOP. Additionally, in
+obj file is successfully loaded then calling **grd.compute** is a NO-OP. Additionally, in
 the obj file we store value of `max_nvariance` that was used when file was generated. 
 You can access that value by calling **grd.nvariance_limit**, which you then can use to set 
 `new_max_nvariance` to the same value as one used originally. You can do that like this
