@@ -1,8 +1,8 @@
 Adaptive Mesh refinement for XY->Z problems.
 ============================================
 
-Overview
---------
+Overview.
+---------
 
 When performing numerical simulations one often deals with need to calculate certain
 values for each point in the predefined grid on XY plane, which typically looks like
