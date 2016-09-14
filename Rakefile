@@ -6,5 +6,5 @@ end
 
 # This is an important message.
 
-desc "Run tests"
+desc "Run tests for real"
 task :default => :test
